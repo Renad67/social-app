@@ -1,0 +1,29 @@
+{
+  "name": "social-app",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start:dev": "concurrently \"tsc --watch\" \"node --watch --env-file=.env .\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bcrypt": "*",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
+    "@types/nodemailer": "*",
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "bcrypt": "*",
+    "express": "*",
+    "mongoose": "^9.4.1",
+    "nodemailer": "*",
+    "redis": "*",
+    "zod": "^4.3.6"
+  }
+}
